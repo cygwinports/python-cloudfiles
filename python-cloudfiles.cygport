@@ -1,0 +1,11 @@
+ORIG_PN=${PN}
+inherit python-distutils
+
+NAME="python-cloudfiles"
+VERSION=1.7.11
+RELEASE=1
+CATEGORY="Python"
+SUMMARY="CloudFiles client library for Python"
+DESCRIPTION=${SUMMARY}
+
+ARCH=noarch
